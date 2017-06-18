@@ -5,7 +5,7 @@ class ArticlesControllerTest < ActionController::TestCase
     @article = articles(:one)
   end
 
-  test "should get index" do
+  test "should get categories index" do
     get :index
     assert_response :success
     assert_not_nil assigns(:articles)
